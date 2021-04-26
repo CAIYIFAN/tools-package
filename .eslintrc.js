@@ -3,7 +3,6 @@ module.exports = {
   extends: [
     'plugin:react/recommended', // 使用来自@eslint-plugin-react的推荐规则
     'plugin:@typescript-eslint/recommended', // 使用来自@typescript-eslint/eslint-plugin的推荐规则
-    'prettier/@typescript-eslint', // 使用 ESLint -config-prettier 禁用来自@typescript-eslint/ ESLint 与 prettier 冲突的 ESLint 规则
     'plugin:prettier/recommended'
   ],
   parserOptions: {
